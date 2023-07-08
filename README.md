@@ -1,3 +1,13 @@
+Learning NextJS 13  
+
+`Youtube`  
+Next.js Full Tutorial for Beginners | Next.js 13 Full Stack App Using App Router  
+[https://www.youtube.com/watch?v=VE8BkImUciY&ab_channel=LamaDev](https://www.youtube.com/watch?v=VE8BkImUciY&ab_channel=LamaDev)  
+  
+  
+  
+  
+  
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
