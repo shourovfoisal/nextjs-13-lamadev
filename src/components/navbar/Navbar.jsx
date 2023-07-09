@@ -1,5 +1,8 @@
+"use client"
+
 import Link from 'next/link';
 import React from 'react'
+import styles from './navbar.module.css'
 
 const Navbar = () => {
 
@@ -39,10 +42,11 @@ const links = [
   return (
     <div>
         <Link href="/">lamamia</Link>
-        <div>
-        {
-            links.map(link => <Link key={link.id} href={link.url}>{link.title}</Link>)
-        }
+        <div className={styles.container}>
+            {
+                links.map(link => <Link key={link.id} href={link.url}>{link.title}</Link>)
+            }
+            <button onClick={() => console.log("logout")}>Logout</button>
         </div>
     </div>
   )
